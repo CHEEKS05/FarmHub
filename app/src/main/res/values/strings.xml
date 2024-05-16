@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pochicare</string>
+    <string name="title_activity_calculator">CalculatorActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_products">ProductsActivity</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_rent">RentActivity</string>
+    <string name="title_activity_sell">SellActivity</string>
+</resources>

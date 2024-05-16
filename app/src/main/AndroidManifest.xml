@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pochicare"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.theme.screens.sell.SellActivity"
+            android:exported="false"
+            android:label="@string/title_activity_sell"
+            android:theme="@style/Theme.Pochicare" />
+        <activity
+            android:name=".ui.theme.screens.SellActivity"
+            android:exported="false"
+            android:label="@string/title_activity_sell"
+            android:theme="@style/Theme.Pochicare" />
+        <activity
+            android:name=".ui.theme.screens.rent.RentActivity"
+            android:exported="false"
+            android:label="@string/title_activity_rent"
+            android:theme="@style/Theme.Pochicare" />
+        <activity
+            android:name=".ui.theme.TestActivity"
+            android:exported="false"
+            android:label="@string/title_activity_test"
+            android:theme="@style/Theme.Pochicare" />
+        <activity
+            android:name=".ui.theme.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.Pochicare" />
+        <activity
+            android:name=".ui.theme.MainActivity3"
+            android:exported="false"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/Theme.Pochicare" />
+        <activity
+            android:name=".ui.theme.screens.products.ProductsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_products"
+            android:theme="@style/Theme.Pochicare" />
+        <activity
+            android:name=".ui.theme.MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.Pochicare" />
+        <activity
+            android:name=".ui.theme.screens.login.RegisterActivity"
+            android:exported="false"
+            android:label="@string/title_activity_register"
+            android:theme="@style/Theme.Pochicare" />
+        <activity
+            android:name=".ui.theme.CalculatorActivity"
+            android:exported="false"
+            android:label="@string/title_activity_calculator"
+            android:theme="@style/Theme.Pochicare" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Pochicare">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

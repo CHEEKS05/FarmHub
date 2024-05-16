@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1000323127164",
+    "project_id": "pochicare",
+    "storage_bucket": "pochicare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000323127164:android:77726a6e6ce4e747f236f9",
+        "android_client_info": {
+          "package_name": "com.kasera.pochicare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGwuEZgWMqR1XGz0ZWxxOecDz51sKUi_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
